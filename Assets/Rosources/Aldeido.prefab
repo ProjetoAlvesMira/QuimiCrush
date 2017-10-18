@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50318021488807736}
   - component: {fileID: 61492055363858338}
   - component: {fileID: 114737137824585220}
+  - component: {fileID: 95013717435506024}
   m_Layer: 0
   m_Name: Aldeido
   m_TagString: Untagged
@@ -88,6 +89,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &95013717435506024
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303966990551178}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97653d971753d514cb4dd3d8e80cca5b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114737137824585220
 MonoBehaviour:
   m_ObjectHideFlags: 1
